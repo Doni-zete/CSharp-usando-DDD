@@ -1,45 +1,40 @@
 ![Aurora Project](https://repository-images.githubusercontent.com/128673011/f6ebdd80-b6da-11ea-94bb-9d141944b257)
 
-# What is Aurora project?
-It's an open source project, written in .NET Core, currently in version 3.1.
+# O que é o projeto Aurora?
+É um projeto de código aberto, escrito em .NET Core, atualmente na versão 3.1.
 
-The project's goals is to show that is possible to create an architecture more simple than others and using some concepts like DDD (Design Driven Design).
+O objetivo do projeto é mostrar que é possível criar uma arquitetura mais simples do que outras e utilizando alguns conceitos como DDD (Design Driven Design).
 
-## Business proposal:
-This project is a simple PPE (Personal Protective Equipament) Management. The principle idea is to register workers and PPE and, with this data, allow to transfer PPE to a worker.
-Besides that, this system allow that you see all PPE and who has a PPE and notify if the PPE is near to expire.
+## Proposta de negócio:
+Este projeto é uma gestão simples de EPI (Equipamentos de Proteção Individual). A ideia principal é cadastrar trabalhadores e EPIs e, com esses dados, permitir a transferência de EPIs para um trabalhador. Além disso, este sistema permite que você veja todos os EPIs e quem possui um EPI e avise se o EPI está prestes a expirar.
 
-### Abbreviations:
-* NIN: National Insurance Number (as CPF in Brazil)
 
-## How to use:
-1. Clone this project to into your machine
-2. Use the default connection string or:
-    2.1. Install and configure [MySql](https://dev.mysql.com/downloads/mysql/), if you want.
-    2.2. Inform the connection string on Aroura.Infra.Data/Context/MySqlContext.cs, if necessary
-    * Put the server name on [SERVER] tag
-    * Put the port number on [PORT] tag
-    * Put the user name database on [USER] tag
-    * Put the password database on [PASSWORD] tag
-4. Finally, build and run the application
 
-## MySql Migrations:
-1. Open your Package Manager Console
-2. Change the default project to Aurora.Infra.Data
-3. Run command "Add-Migration [NAME OF YOUR MIGRATION]"
-4. Run command "Update-Database"
+## Como usar:
+Clone este projeto em sua máquina
+Use a string de conexão padrão ou: 2.1. Instale e configure o MySql , se desejar. 2.2. Informe a string de conexão em Aroura.Infra.Data/Context/MySqlContext.cs, se necessário
+Coloque o nome do servidor na tag [SERVER]
+Coloque o número da porta na tag [PORT]
+Coloque o banco de dados de nome de usuário na tag [USER]
+Coloque o banco de dados de senha na tag [PASSWORD]
+Por fim, crie e execute o aplicativo
 
-For more information about this project, sse this [article](https://medium.com/@alexalves_85598/criando-uma-api-em-net-core-baseado-na-arquitetura-ddd-2c6a409c686).
+## Migrações do MySql:
+Abra o console do gerenciador de pacotes
+Altere o projeto padrão para Aurora.Infra.Data
+Execute o comando "Add-Migration [NAME OF YOUR MIGRATION]"
+Execute o comando "Update-Database"
+Para obter mais informações sobre este projeto, consulte este artigo . [artigo](https://medium.com/@alexalves_85598/criando-uma-api-em-net-core-baseado-na-arquitetura-ddd-2c6a409c686).
 
-## Technologies implemented:
+## Tecnologias implementadas:
 * ASP.NET Core 3.1 (com .NET Core 3.1)
 * Entity Framework Core 3.1.5
-* Flunt Validation 1.0.5
+* Validação Flunt 1.0.5
 * Swagger UI 5.5.0
-* MySql Database Connection
+* Conexão de banco de dados MySql
 * .NET Core Native DI
-* SpecFlow for BDD
-* GitHub Actions
+* SpecFlow para BDD
+* Ações GitHub
 
 ## Architecture:
 * Layer architecture
