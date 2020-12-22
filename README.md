@@ -37,20 +37,7 @@ Use a string de conexão padrão ou: 2.1. Instale e configure o MySql , se desej
 * SpecFlow para BDD
 * Ações GitHub
 
-## Architecture:
-* Layer architecture
-* S.O.L.I.D. principles
-* Clean Code
-* Domain Validations
-* Domain Notifications
-* Domain Driven Design
-* Repository Pattern
-* Notification Pattern
-* Mapper by Extension Methods
-* Value Types
-* BDD (Behavior Driven Development)
 
-![Architecture](https://miro.medium.com/max/962/1*qpHCIA7RDfW89KtSUXGJog.png)
 
 
 
