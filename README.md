@@ -14,8 +14,6 @@ Este projeto é uma gestão simples de EPI (Equipamentos de Proteção Individua
 Clone este projeto em sua máquina
 Use a string de conexão padrão ou: 
 *Instale e configure o MySql , se desejar. 
-*Informe a string de conexão em [Mysql](Aroura.Infra.Data/Context/MySqlContext.cs), se necessário
-* Coloque o nome do servidor na tag [SERVER]
 * Coloque o número da porta na tag [PORT]
 * Coloque o banco de dados de nome de usuário na tag [USER]
 * Coloque o banco de dados de senha na tag [PASSWORD]
