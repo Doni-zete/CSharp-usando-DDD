@@ -13,7 +13,7 @@ Este projeto é uma gestão simples de EPI (Equipamentos de Proteção Individua
 ## Como usar:
 Clone este projeto em sua máquina
 Use a string de conexão padrão ou: 
-*Instale e configure o MySql , se desejar. 
+* Instale e configure o MySql , se desejar. 
 * Coloque o número da porta na tag [PORT]
 * Coloque o banco de dados de nome de usuário na tag [USER]
 * Coloque o banco de dados de senha na tag [PASSWORD]
